@@ -4,28 +4,7 @@ import AddTask from "./AddTask";
 import './App.css';
 
 function TodoApp() {
-  const [tasks, setTasks] = useState([
-    {
-      text: "Drink water",
-      completed: false
-    },
-     {
-      text: "Do homework",
-      completed: false
-    },
-    {
-      text: "Code a webpage",
-      completed: false
-    },
-    {
-      text: "Go for a walk",
-      completed: false
-    },
-    {
-      text: "Water the plants",
-      completed: false
-    }
-  ]);
+  const [tasks, setTasks] = useState([]);
 
 
   const addTask = (newTaskText) => {
