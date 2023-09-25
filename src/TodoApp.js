@@ -71,7 +71,7 @@ function TodoApp() {
       </ul>
 
     </div>
-          <p className="text-center  rounded p-2" id="coded">Open source code by <a href="https://github.com/wardahsharif" className="text-dark" id="git" target="_blank">Wardah Sharif</a></p>
+          <p className="text-center  rounded p-2" id="coded">Open source code by <a href="https://github.com/wardahsharif" className="text-dark" id="git" target="_blank" rel="noreferrer">Wardah Sharif</a></p>
     </div>
   );
 }
