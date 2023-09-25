@@ -1,7 +1,7 @@
 import React from "react";
 import DeleteTask from "./DeleteTask"; 
 const Task = ({ task, onToggleCompletion, onDelete}) => (
-  <div className="task d-flex flex-row justify-content-center my-4">
+  <div className="task d-flex flex-row justify-content-center my-3 rounded" id="tasks">
     
     <input
       type="checkbox"
@@ -9,7 +9,7 @@ const Task = ({ task, onToggleCompletion, onDelete}) => (
       onChange={onToggleCompletion}
       className="mx-3 mb-3"
     />
-    <span className="mt-2 ">{task.text}</span>
+    <span className="mt-2">{task.text}</span>
       <DeleteTask onDelete={onDelete} /> 
   </div>
 );

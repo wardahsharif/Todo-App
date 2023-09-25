@@ -55,6 +55,7 @@ background-color: rgb(204, 182, 228);
 
 #todo-list {
   background-color: #e3d3ea;
+    padding-right: 50px;
 }
 
 #navbar {
@@ -67,4 +68,9 @@ background-color: #e3d3ea;
 
 #about {
   background-color: #e3d3ea;
+}
+
+#tasks {
+  background-color: #e9e2ec;
+
 }

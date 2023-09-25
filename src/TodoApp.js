@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Task from "./Task";
 import AddTask from "./AddTask";
-import DeleteTask from "./DeleteTask";
 import './App.css';
 
 function TodoApp() {
@@ -55,7 +54,7 @@ function TodoApp() {
 
   return (
     <div>
-    <div className="todolist my-5 rounded" id="todo-list">
+    <div className="todolist my-3  rounded " id="todo-list">
       <h1>To-do list <i class="fa-solid fa-list-check"></i></h1>
       <AddTask onAddTask={addTask} />
       <ul>
@@ -72,7 +71,7 @@ function TodoApp() {
       </ul>
 
     </div>
-          <p className="text-center  rounded p-2" id="coded">Open source code by <a href="https://github.com/wardahsharif" className="text-dark" target="_blank">Wardah Sharif</a></p>
+          <p className="text-center  rounded p-2" id="coded">Open source code by <a href="https://github.com/wardahsharif" className="text-dark" id="git" target="_blank">Wardah Sharif</a></p>
     </div>
   );
 }
