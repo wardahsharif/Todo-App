@@ -74,3 +74,11 @@ background-color: #e3d3ea;
   background-color: #e9e2ec;
   padding-top: 15px;
 }
+
+.transparent-border {
+  border: transparent;
+}
+
+.paragraph {
+  background-color: #e9e2ec;
+}

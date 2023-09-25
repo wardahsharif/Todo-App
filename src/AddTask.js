@@ -21,7 +21,7 @@ const AddTask = ({ onAddTask }) => {
         placeholder="Add a new task"
         value={newTask}
         onChange={handleTaskChange}
-        className="rounded p-2"
+        className="rounded p-2 transparent-border"
       />
       <button className="btn" id="plus-button" onClick={handleAddTask}>
         <i class="fa-solid fa-plus"></i>
