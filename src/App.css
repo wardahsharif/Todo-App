@@ -1,38 +1,70 @@
+
+
+
+.custom-link {
+
+  
+    color: #390440;
+ 
+  text-decoration: none;
+ 
+  font-weight: bold;
+ 
+  margin-right: 20px;
+ 
+ 
+ 
+}
+
+.custom-link:hover {
+  
+color: #a070b2;
+
+  text-decoration: underline;
+  
+}
+
 .App {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.form-check-input {
+  margin-left: 10px;
+}
+
+.todolist {
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#plus-button:hover {
+ background-color:rgb(204, 182, 228);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#delete-button:hover {
+background-color: rgb(204, 182, 228);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#todo-list {
+  background-color: #e3d3ea;
 }
 
-.App-link {
-  color: #61dafb;
+#navbar {
+background-color: #e3d3ea;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#coded {
+  background-color: #e3d3ea;
+}
+
+#about {
+  background-color: #e3d3ea;
 }
